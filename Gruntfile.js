@@ -76,7 +76,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/stage_aas/projects/news/21ct-auditors-report',
+        dest: '/stage_aas/projects/sports/wickline-depositions',
         exclusions: ['dist/tmp','Thumbs.db'],
         simple: true,
         useList: false
@@ -88,7 +88,7 @@ module.exports = function(grunt) {
           authKey: 'cmg'
         },
         src: 'public',
-        dest: '/prod_aas/projects/news/21ct-auditors-report',
+        dest: '/prod_aas/projects/sports/wickline-depositions',
         exclusions: ['dist/tmp','Thumbs.db'],
         simple: true,
         useList: false
@@ -106,5 +106,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-archieml');
 
   grunt.registerTask('default', ['archieml', 'clean', 'copy', 'less']);
+  grunt.registerTask('stage', ['default','ftpush:stage']);
+  grunt.registerTask('prod', ['default','ftpush:prod']);
 
 };

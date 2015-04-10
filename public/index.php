@@ -100,7 +100,7 @@
               <div class="finding-img clearfix">
                 <blockquote class="hidden-md hidden-lg"><?php echo $f->text; ?></blockquote>
                 <img class="img-responsive hidden-xs hidden-sm" src="assets/<?php echo $f->img; ?>" />
-                <div class="finding-img-meta"><a target="_blank" href="https://www.documentcloud.org/documents/<?php echo $f->docid; ?>.html#/document/p<?php echo $f->page; ?>/<?php echo $f->note; ?>"><i class="fa fa-file-text"></i> Jump to page</a> <span class="pull-right">p. <?php echo $f->page; ?></span></div>
+                <div class="finding-img-meta"><a target="_blank" href="http://projects.statesman.com/documents/?doc=<?php echo $f->docid; ?>#/document/p<?php echo $f->page; ?>/<?php echo $f->note; ?>"><i class="fa fa-file-text"></i> Jump to page</a> <span class="pull-right">p. <?php echo $f->page; ?></span></div>
               </div>
             </div>
             <?php $i++; ?>
