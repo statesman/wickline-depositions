@@ -6,9 +6,9 @@
     <meta name="viewport" content="initial-scale=1, maximum-scale=1">
     <?php
       $meta = array(
-        'title' => "Depositions cloud Oklahoma State suit against Texas'Wickline",
-        'description' => 'Read key excerpts from depositions by Joe Wickline, Charlie Strong and Shawn Watson. ',
-        'thumbnail' => 'http://projects.statesman.com/sports/wickline-depositions/',
+        'title' => "Key points in Wickline vs. OSU depositions",
+        'description' => 'Read key excerpts from depositions by Texas coachs Joe Wickline, Charlie Strong, Shawn Watson and OSU athletic director Mike Holder.',
+        'thumbnail' => 'http://projects.statesman.com/sports/wickline-depositions/assets/charlie-strong-p1-large.gif',
         'url' => 'http://projects.statesman.com/sports/wickline-depositions/',
         'twitter' => 'statesman'
       );
@@ -70,10 +70,14 @@
 
     <article class="container">
       <div class="header">
-        <h4>Texas state government</h4>
+        <h4>OSU VS. WICKLINE</h4>
         <h1><?php print $meta['title']; ?></h1>
-        <p class="author">Interactive by Christian McDonald and Brian Davis, American-Statesman<br />Published April 10, 2015</p>
-        <p>Description</p>
+        <p class="author">Interactive by Christian McDonald and Jason Jarrett, American-Statesman<br />Published April 10, 2015</p>
+        <p>At the heart of the matter between Oklahoma State and former assistant coach Joe Wickline is wording in his final OSU contract.</p>
+        <p>Wickline’s OSU contract stipulated that unless he left OSU for an offensive coordinator’s position with play-calling duties or joined an NFL staff, he’d owe the school for the remainder of his contract.</p>
+        <p>At Texas, Wickline’s official job title is offensive coordinator. But offensive assistant coach/quarterbacks coach Shawn Watson is believed to be Texas’ primary play-caller, though he, Wickline and head coach Charlie Strong have maintained that calling plays is a shared responsibility.</p>
+        <p>OSU disagrees, and is suing Wickline for nearly $600,000.</p>
+        <p>The following quotes are from depositions in the case by Strong, Wickline, Watson and Oklahoma State athletic director Mike Holder.</p>
         <!-- <p><span>Related:</span> <a target="_blank" href="http://www.mystatesman.com/news/news/state-regional/audit-confirms-statesman-findings-that-21ct-deal-b/nkkty/">Audit confirms Statesman findings that 21CT deal broke rules, misled <i class="fa fa-angle-double-right"></i></a></p> -->
       </div>
 
@@ -89,14 +93,14 @@
               <div id="finding-<?php echo $i; ?>" class="clearfix">
                 <div class="finding-num"><?php echo $i; ?></div>
                 <div class="finding-hed clearfix">
-                  <h3><?php echo $f->hed; ?> <a title="Share this" href="https://twitter.com/intent/tweet?text=<?php echo urlencode('State auditor\'s report: ' . $f->hed); ?>&url=<?php echo urlencode($meta['url'] . '#finding-' . $i); ?>&related=statesman" target="_blank"><i class="fa fa-twitter"></i></a></h3>
+                  <h3><?php echo $f->hed; ?> <a title="Share this" href="https://twitter.com/intent/tweet?text=<?php echo urlencode('Wickline case: ' . $f->hed); ?>&url=<?php echo urlencode($meta['url'] . '#finding-' . $i); ?>&related=statesman" target="_blank"><i class="fa fa-twitter"></i></a></h3>
                   <p><?php echo $f->desc; ?></p>
                 </div>
               </div>
               <div class="finding-img clearfix">
-                <blockquote class="hidden-md hidden-lg"><i class="fa fa-quote-left"></i> <?php echo $f->text; ?> <i class="fa fa-quote-right"></i></blockquote>
+                <blockquote class="hidden-md hidden-lg"><?php echo $f->text; ?></blockquote>
                 <img class="img-responsive hidden-xs hidden-sm" src="assets/<?php echo $f->img; ?>" />
-                <div class="finding-img-meta"><a target="_blank" href="https://www.documentcloud.org/documents/1700152-21ct-sao.html#/document/p<?php echo $f->page; ?>/<?php echo $f->note; ?>"><i class="fa fa-file-text"></i> Jump to page</a> <span class="pull-right">p. <?php echo $f->page; ?></span></div>
+                <div class="finding-img-meta"><a target="_blank" href="https://www.documentcloud.org/documents/<?php echo $f->docid; ?>.html#/document/p<?php echo $f->page; ?>/<?php echo $f->note; ?>"><i class="fa fa-file-text"></i> Jump to page</a> <span class="pull-right">p. <?php echo $f->page; ?></span></div>
               </div>
             </div>
             <?php $i++; ?>
@@ -105,12 +109,30 @@
 
         <div class="col-xs-12 col-sm-4 timeline">
           <div>
-            <h2>Read the complete report</h2>
+            <h2>Read the complete depositions</h2>
             <div class="full-doc-link clearfix">
               <div class="pull-left">
-                <img src="assets/cover.gif" class="img-responsive" />
+                <img src="assets/charlie-strong-p1-small.gif" class="img-responsive" />
               </div>
-              <a href="http://projects.statesman.com/documents/?doc=1700152-21ct-sao" target="_blank">Read and search the complete report in our document viewer</a>
+              <a href="http://projects.statesman.com/documents/?doc=1812443-charlie-strong" target="_blank">Complete deposition of Texas head coach Charlie Strong</a>
+            </div>
+            <div class="full-doc-link clearfix">
+              <div class="pull-left">
+                <img src="assets/joe-wickline-p1-small.gif" class="img-responsive" />
+              </div>
+              <a href="http://projects.statesman.com/documents/?doc=1812445-joe-wickline" target="_blank">Complete deposition of Texas offensive coordinator Joe Wickline deposition in our document viewer</a>
+            </div>
+            <div class="full-doc-link clearfix">
+              <div class="pull-left">
+                <img src="assets/shawn-watson-p1-small.gif" class="img-responsive" />
+              </div>
+              <a href="http://projects.statesman.com/documents/?doc=1812444-shawn-watson" target="_blank">Complete deposition of Texas offensive assistant coach/quarterbacks coach Shawn Watson </a>
+            </div>
+            <div class="full-doc-link clearfix">
+              <div class="pull-left">
+                <img src="assets/james-holder-p1-small.gif" class="img-responsive" />
+              </div>
+              <a href="http://projects.statesman.com/documents/?doc=1814525-james-holder" target="_blank">Complete deposition of Oklahoma State athletic director Mike Holder</a>
             </div>
           </div>
         </div>

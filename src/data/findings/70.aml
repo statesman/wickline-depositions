@@ -1,11 +1,13 @@
-hed: Staff approved payments on Jack Stick’s instructions
+hed: Final decision on offense
 
-desc: Payments from the Office of Inspector General were approved on Jack Stick’s instructions.
+desc: In the deposition of Watson, he says that both he and Wickline are the final decision makers on offense.
 
-img: 70.gif
+img: watson-final-decision.gif
 
-text: OIG staff approved payments to 21CT based on instruction from the former deputy IG. The former deputy IG frequently directed staff to approve payments to 21CT through verbal instruction or emails. Based on the direction and approvals of the former deputy IG, the OIG’s director of data analytics and fraud detection and the OIG’s former business operations manager then used emails to approve payments to 21CT. The Commission did not have a process that required executive management to certify that (1) the information related to the payments that they were approving was true and correct and (2) the Commission had received the related fraud detection services that it intended to procure.
+text:<p><i class="fa fa-quote-left"></i> Q. At the -- after you have input from the other coaches or from any other source, who are the final decision-makers in terms of schemes for offensive plays, series, or particular plays?<br>WATSON: Joe and I. <i class="fa fa-quote-right"></i></p>
 
-page: 7
+docid: 1812444-shawn-watson
 
-note: a211104
+page: 73
+
+note: a212864
