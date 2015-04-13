@@ -8,7 +8,7 @@
       $meta = array(
         'title' => "Key points in Wickline vs. OSU depositions",
         'description' => 'Read key excerpts from depositions by Texas coaches Joe Wickline, Charlie Strong, Shawn Watson and OSU athletic director Mike Holder.',
-        'thumbnail' => 'http://projects.statesman.com/sports/wickline-depositions/assets/charlie-strong-p1-large.gif',
+        'thumbnail' => 'http://projects.statesman.com/sports/wickline-depositions/assets/share.gif',
         'url' => 'http://projects.statesman.com/sports/wickline-depositions/',
         'twitter' => 'statesman'
       );
