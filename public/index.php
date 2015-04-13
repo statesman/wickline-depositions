@@ -78,7 +78,7 @@
         <p>At Texas, Wickline’s official job title is offensive coordinator. But offensive assistant coach/quarterbacks coach Shawn Watson is believed to be Texas’ primary play-caller, though he, Wickline and head coach Charlie Strong have maintained that calling plays is a shared responsibility.</p>
         <p>OSU disagrees, and is suing Wickline for nearly $600,000.</p>
         <p>The following quotes are from depositions in the case by Strong, Wickline, Watson and Oklahoma State athletic director Mike Holder.</p>
-        <!-- <p><span>Related:</span> <a target="_blank" href="http://www.mystatesman.com/news/news/state-regional/audit-confirms-statesman-findings-that-21ct-deal-b/nkkty/">Audit confirms Statesman findings that 21CT deal broke rules, misled <i class="fa fa-angle-double-right"></i></a></p> -->
+        <p><span>Related:</span> <a target="_blank" href="http://www.mystatesman.com/news/sports/college-football/texas-600000-question-who-calls-the-plays-osu-want/nkqtq/#c1b7ac80.257250.735701">Texas’ $600,000 question: Who calls the plays? OSU wants to know <i class="fa fa-angle-double-right"></i></a></p>
       </div>
 
       <hr />
